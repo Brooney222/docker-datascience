@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-  data-analytics:
+  jupyter:
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,7 +10,6 @@ services:
       - GRANT_SUDO=yes
       - NB_USER=brian
       - CHOWN_HOME='yes'
-      # - GRANT_SUDO=yes
     user: root
     volumes:
       - ./:/home/brian/

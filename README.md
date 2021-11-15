@@ -42,6 +42,9 @@ docker compose up
 Create dockerized postgres database for frequently used datasets. Save utility functions in utils directory script with sqlalchemy connector in utils directory
 
 home
+<br>
 | -- src
+<br>
 | -- utils
+<br>
 | -- cheat-sheets

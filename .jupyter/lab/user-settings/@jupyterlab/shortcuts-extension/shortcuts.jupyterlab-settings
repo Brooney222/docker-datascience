@@ -1,0 +1,57 @@
+{
+    "shortcuts": [
+        {
+            "command": "notebook:move-cursor-down",
+            "keys": [
+                "ArrowDown"
+            ],
+            "selector": ".jp-Notebook:focus",
+            "disable": true
+        },
+        {
+            "command": "notebook:move-cursor-up",
+            "keys": [
+                "ArrowUp"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:extend-marked-cells-above",
+            "keys": [
+                "Shift ArrowUp"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:extend-marked-cells-above",
+            "keys": [
+                "Shift K"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:extend-marked-cells-below",
+            "keys": [
+                "Shift ArrowDown"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:extend-marked-cells-below",
+            "keys": [
+                "Shift J"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "filebrowser:rename",
+            "keys": [
+                "Enter"
+            ],
+            "selector": ".jp-DirListing-content .jp-DirListing-itemText"
+        }
+        
+    ]
+}
+
+// "notebook:move-cursor-up"

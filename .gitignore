@@ -1,0 +1,5 @@
+.cache/
+.conda/
+.ipynb_checkpoints/
+.local/
+.npm/

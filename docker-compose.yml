@@ -1,0 +1,24 @@
+version: "3.7"
+services:
+  data-analytics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - JUPYTER_TOKEN=''
+      - JUPYTER_ENABLE_LAB='yes'
+      - GRANT_SUDO=yes
+      - NB_USER=brian
+      - CHOWN_HOME='yes'
+      # - GRANT_SUDO=yes
+    user: root
+    volumes:
+      - ./:/home/brian/
+    ports:
+      - 8889:8888
+    container_name:
+      Data-Science
+
+# docker-compose up -d --build
+# https://www.youtube.com/watch?v=UXxUcZDSNwA
+# https://www.stefanproell.at/2018/08/08/jupyter-docker-stacks-with-a-custom-user/
